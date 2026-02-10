@@ -1,0 +1,22 @@
+{
+  "name": "moltbook-agent-standalone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/agent.ts",
+    "agent": "ts-node src/agent.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/fs-extra": "^11.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
